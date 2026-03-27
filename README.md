@@ -101,20 +101,6 @@ Key findings :
 
 ---
 
-## Financial markets parallel
-
-| Football prediction | Financial markets |
-|---------------------|-------------------|
-| Match outcome probabilities | Asset pricing |
-| Bookmaker odds | Market price |
-| Overround (~5.5%) | Bid-ask spread |
-| Edge (model vs bookmaker) | Alpha |
-| Efficient market hypothesis | Bookmaker efficiency |
-
-The bookmaker comparison section directly tests whether the model can identify mispricings — matches where our predicted probability diverges meaningfully from the implied bookmaker probability. This is structurally identical to a quantitative fund comparing its model price to the market price of a financial instrument.
-
----
-
 ## Limitations and next steps
 
 - **Draw prediction** : the model fails entirely on draws — future work should explore draw-specific features (H2H records, ELO ratings, defensive rigidity)
